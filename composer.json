@@ -1,0 +1,39 @@
+{
+    "name": "triawarman/yii2-i18n",
+    "description": "Internationalization",
+    "keywords": ["yii2", "yii2-extension"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Triawarman",
+            "email": "3awarman@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/triawarman/yii2-i8n/issues?state=open",
+        "source": "https://github.com/triawarman/yii2-i8n"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": "~2.0.14"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "triawarman\\i18n\\": "src"
+        }
+    }
+}
